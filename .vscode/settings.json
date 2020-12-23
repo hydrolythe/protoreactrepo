@@ -1,0 +1,9 @@
+{
+  "files.exclude": {
+    "**/*.jsx": { "when": "$(basename).tsx" },
+    "**/*.jsx.map": true,
+    "**/*.js": { "when": "$(basename).tsx" },
+    "**/*.js.map": true
+  },
+  "git.ignoreLimitWarning": true
+}
